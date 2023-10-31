@@ -1,0 +1,87 @@
+/* Code CSS : */
+/* Page Entière : */
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-image: url(images/fond.jpg);
+    font-family: Georgia, serif;
+    background-size: 100% 100%; 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-bottom: 15%;
+    margin-top: 1.5%;
+    font-size: 1.2em;
+}
+
+/* Formulaire (1ere page) et taux (2eme page) */
+.form{
+    width: 50%;
+    margin-left: 25%;
+    border: 3px solid black;
+    padding-bottom: 3%;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 20px;
+    background-color: #DCDEDE;
+}
+/* Titre Formulaire */
+h2{
+    color: black;
+}
+/* Bouton "Calculer" */
+.bouton{
+    width: 75%;
+    height: 50px;
+    background-color: #44850C;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* Quand la souris passe sur le bouton : animation */
+.bouton:hover{
+    transition: 0.75s;
+    background-color: #7CEC68;
+    height: 55px;
+    width: 80%;
+}
+/* Les sélécteurs dans le formulaire : */
+.selecteur{
+    background-color: #8BA489;
+    width: 50%;
+    height: 40px;
+    font-size: 1.05em;
+    text-align: center;
+    border: 2px solid;
+    margin-bottom: 20px;
+}
+/* Texte Titre au dessus des sélécteurs */
+.text{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+/* Image Banque Populaire en dessous */
+.banque_populaire{
+    margin-top: 1%;
+}
+/* Bulle à droite */
+.bulle{
+    position: absolute;
+    border-radius: 40%;
+    width: 20%;
+    height: 10%;
+    background-color: #8BA489;
+    right: 2%;
+    top: 15%;
+    font-family: fantasy;
+}
+/* Slogan à l'interieur de la bulle (à droite) */
+.slogan{
+    margin-top: 7%;
+}
+
+/* Quand la div pour faire une nouvelle simulation est passé (2eme page seulement) : */
+#revenir:hover{
+    text-decoration: underline;
+}
